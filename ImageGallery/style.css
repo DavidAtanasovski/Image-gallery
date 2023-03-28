@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: #F6FBFD;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem auto;
+    
+}
+
+h2{
+    margin-bottom: 10px;
+    font-size: 2.3rem;
+    color: #c52271;
+}
+
+.menu{
+    margin: 1.5rem 0;
+}
+
+.menu a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    color: #fff;
+    padding: 8px 22px;
+}
+
+/* a:focus {
+    background: #e5e5e5;
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 15px #ffffffb6;
+       -moz-box-shadow: inset 0px 0px 15px #ffffffb6;
+            box-shadow: inset 0px 0px 15px #ffffffb6;
+  }
+  */
+  
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.store-items{
+    width: 300px;
+    padding: 1rem;
+}
+
+.store-items img{
+    width: 100%;
+    height: 170px;
+    display: block;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(74, 184, 235);
+    border-radius: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+
+}
+
+.container form input{
+    
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+
+    
+}
+
+.container form i{
+    padding-left: 10px;
+}
+
+.allbtn{
+    background-color: #753CF8;
+}
+
+.waterbtn{
+    background-color: rgb(48, 117, 163)
+}
+
+.earthbtn{
+    background-color: rgb(63, 121, 25);
+}
+
+.firebtn{
+    background-color: maroon;
+}
+
+.active {
+    background-color: rgba(15, 28, 68, 0.925);
+    
+  }
+  
+
